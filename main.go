@@ -1,15 +1,22 @@
 package main
 
 import (
-    "github.com/gofiber/fiber/v2"
-    "student-portal/database"
-    "student-portal/routes"
+	"student-portal/database"
+	"student-portal/routes"
+
+	"github.com/gofiber/fiber/v2"
+    "github.com/gofiber/fiber/v2/middleware/logger"
 )
 
 func main() {
     app := fiber.New()
 
+    app.Use(logger.New())
+
     database.Connect()
+
+    app.Static("/", "./public")
+
     routes.SetupRoutes(app)
 
     app.Get("/", func (c *fiber.Ctx) error {

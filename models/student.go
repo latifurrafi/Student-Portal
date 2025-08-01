@@ -5,5 +5,5 @@ type Student struct {
 	Name string `json:"name"`
 	Email string `json:"email" gorm:"unique"`
 	Password string `json:"password"`
-	Results []Result
+	Results []Result `json:"results" gorm:"foreignKey:StudentID"`
 }
