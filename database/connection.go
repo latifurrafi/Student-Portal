@@ -1,22 +1,34 @@
 package database
 
 import (
-	"fmt"
-	"gorm.io/driver/postgres"
-	"gorm.io/gorm"
-	"student-portal/models"
+    "student-portal/models"
+    "gorm.io/driver/postgres"
+    "gorm.io/gorm"
+    "fmt"
+    "os"
+    "github.com/joho/godotenv"
 )
 
 var DB *gorm.DB
 
-func connect(){
-	dsn := "host=localhost user=rafi password=1234 dbname=StudentPortalDb port=5432 sslmode=disable Timezone=Asia/Dhaka"
-	db, err :=gorm.Open(postgres.Open(dsn), &gorm.Config{})
-	
-	if err != nil {
-		panic("Failed To connect to the database!")
-	}
+func Connect() {
+    godotenv.Load()
 
-	db.AutoMigrate(&models.Student{}, &models.Result{})
-	DB = db
+    dsn := fmt.Sprintf("host=%s user=%s password=%s dbname=%s port=%s sslmode=disable",
+        os.Getenv("DB_HOST"),
+        os.Getenv("DB_USER"),
+        os.Getenv("DB_PASSWORD"),
+        os.Getenv("DB_NAME"),
+        os.Getenv("DB_PORT"),
+    )
+
+    db, err := gorm.Open(postgres.Open(dsn), &gorm.Config{})
+    if err != nil {
+        panic("Failed to connect to database: " + err.Error())
+    }
+
+    // ✅ migrate the Student model
+    db.AutoMigrate(&models.Student{}, &models.Result{})
+    
+    DB = db
 }

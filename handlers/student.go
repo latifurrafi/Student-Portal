@@ -1,11 +1,11 @@
 package handlers
 
 import (
-	"student-portal/database"
-	"student-portal/models"
-
-	"github.com/gofiber/fiber/v2"
+    "github.com/gofiber/fiber/v2"
+    "student-portal/database"
+    "student-portal/models"
 )
+
 
 func CreateStudent(c *fiber.Ctx) error {
 	student := new(models.Student)

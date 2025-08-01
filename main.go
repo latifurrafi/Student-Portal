@@ -1,18 +1,19 @@
 package main
 
 import (
-	"github.com/gofiber/fiber/v2"
-	"student-portal/database"
-	"student-portal/models"
-	"student-portal/routes"
+    "github.com/gofiber/fiber/v2"
+    "student-portal/database"
+    "student-portal/routes"
 )
 
-
 func main() {
-	app := fiber.New()
+    app := fiber.New()
 
-	database.Connect()
-	routes.SetupRoutes(app)
+    database.Connect()
+    routes.SetupRoutes(app)
 
-	app.Listen(":3000")
+    app.Get("/", func (c *fiber.Ctx) error {
+        return c.SendString("Api is Working.")
+    })
+    app.Listen(":3000")
 }
