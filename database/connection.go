@@ -1,12 +1,12 @@
 package database
 
 import (
-    "student-portal/models"
-    "gorm.io/driver/postgres"
-    "gorm.io/gorm"
     "fmt"
     "os"
+
     "github.com/joho/godotenv"
+    "gorm.io/driver/postgres"
+    "gorm.io/gorm"
 )
 
 var DB *gorm.DB
@@ -27,8 +27,5 @@ func Connect() {
         panic("Failed to connect to database: " + err.Error())
     }
 
-    // ✅ migrate the Student model
-    db.AutoMigrate(&models.Student{}, &models.Result{})
-    
-    DB = db
+    DB = db // ✅ assign to global
 }

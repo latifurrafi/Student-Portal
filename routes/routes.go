@@ -6,13 +6,15 @@ import (
 )
 
 func SetupRoutes(app *fiber.App) {
-	api := app.Group("/api")
+	// api := app.Group("/api")
 
-	student := api.Group(("/students"))
-	student.Post("/", handlers.CreateStudent)
-	student.Get("/", handlers.GetStudents)
+	app.Post("/students", handlers.CreateStudent)
+	app.Get("/students", handlers.GetAllStudents)
+	app.Get("/students/:id", handlers.GetStudentsById)
+	app.Put("/students/:id", handlers.UpdateStudent)
+	app.Delete("/students/:id", handlers.DeleteStudent)
 
-    result := api.Group("/results")
-    result.Post("/", handlers.CreateResult)
-    result.Get("/", handlers.GetResults)
+	app.Post("/results", handlers.CreateResult)
+	app.Get("/results", handlers.GetAllResult)
+	app.Get("/students/:id/results", handlers.GetREsultsBYID)
 }

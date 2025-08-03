@@ -1,201 +1,101 @@
-ID,Name,Email,Password
-1,Student 1,student1@example.com,securepassword
-2,Student 2,student2@example.com,securepassword
-3,Student 3,student3@example.com,securepassword
-4,Student 4,student4@example.com,securepassword
-5,Student 5,student5@example.com,securepassword
-6,Student 6,student6@example.com,securepassword
-7,Student 7,student7@example.com,securepassword
-8,Student 8,student8@example.com,securepassword
-9,Student 9,student9@example.com,securepassword
-10,Student 10,student10@example.com,securepassword
-11,Student 11,student11@example.com,securepassword
-12,Student 12,student12@example.com,securepassword
-13,Student 13,student13@example.com,securepassword
-14,Student 14,student14@example.com,securepassword
-15,Student 15,student15@example.com,securepassword
-16,Student 16,student16@example.com,securepassword
-17,Student 17,student17@example.com,securepassword
-18,Student 18,student18@example.com,securepassword
-19,Student 19,student19@example.com,securepassword
-20,Student 20,student20@example.com,securepassword
-21,Student 21,student21@example.com,securepassword
-22,Student 22,student22@example.com,securepassword
-23,Student 23,student23@example.com,securepassword
-24,Student 24,student24@example.com,securepassword
-25,Student 25,student25@example.com,securepassword
-26,Student 26,student26@example.com,securepassword
-27,Student 27,student27@example.com,securepassword
-28,Student 28,student28@example.com,securepassword
-29,Student 29,student29@example.com,securepassword
-30,Student 30,student30@example.com,securepassword
-31,Student 31,student31@example.com,securepassword
-32,Student 32,student32@example.com,securepassword
-33,Student 33,student33@example.com,securepassword
-34,Student 34,student34@example.com,securepassword
-35,Student 35,student35@example.com,securepassword
-36,Student 36,student36@example.com,securepassword
-37,Student 37,student37@example.com,securepassword
-38,Student 38,student38@example.com,securepassword
-39,Student 39,student39@example.com,securepassword
-40,Student 40,student40@example.com,securepassword
-41,Student 41,student41@example.com,securepassword
-42,Student 42,student42@example.com,securepassword
-43,Student 43,student43@example.com,securepassword
-44,Student 44,student44@example.com,securepassword
-45,Student 45,student45@example.com,securepassword
-46,Student 46,student46@example.com,securepassword
-47,Student 47,student47@example.com,securepassword
-48,Student 48,student48@example.com,securepassword
-49,Student 49,student49@example.com,securepassword
-50,Student 50,student50@example.com,securepassword
-51,Student 51,student51@example.com,securepassword
-52,Student 52,student52@example.com,securepassword
-53,Student 53,student53@example.com,securepassword
-54,Student 54,student54@example.com,securepassword
-55,Student 55,student55@example.com,securepassword
-56,Student 56,student56@example.com,securepassword
-57,Student 57,student57@example.com,securepassword
-58,Student 58,student58@example.com,securepassword
-59,Student 59,student59@example.com,securepassword
-60,Student 60,student60@example.com,securepassword
-61,Student 61,student61@example.com,securepassword
-62,Student 62,student62@example.com,securepassword
-63,Student 63,student63@example.com,securepassword
-64,Student 64,student64@example.com,securepassword
-65,Student 65,student65@example.com,securepassword
-66,Student 66,student66@example.com,securepassword
-67,Student 67,student67@example.com,securepassword
-68,Student 68,student68@example.com,securepassword
-69,Student 69,student69@example.com,securepassword
-70,Student 70,student70@example.com,securepassword
-71,Student 71,student71@example.com,securepassword
-72,Student 72,student72@example.com,securepassword
-73,Student 73,student73@example.com,securepassword
-74,Student 74,student74@example.com,securepassword
-75,Student 75,student75@example.com,securepassword
-76,Student 76,student76@example.com,securepassword
-77,Student 77,student77@example.com,securepassword
-78,Student 78,student78@example.com,securepassword
-79,Student 79,student79@example.com,securepassword
-80,Student 80,student80@example.com,securepassword
-81,Student 81,student81@example.com,securepassword
-82,Student 82,student82@example.com,securepassword
-83,Student 83,student83@example.com,securepassword
-84,Student 84,student84@example.com,securepassword
-85,Student 85,student85@example.com,securepassword
-86,Student 86,student86@example.com,securepassword
-87,Student 87,student87@example.com,securepassword
-88,Student 88,student88@example.com,securepassword
-89,Student 89,student89@example.com,securepassword
-90,Student 90,student90@example.com,securepassword
-91,Student 91,student91@example.com,securepassword
-92,Student 92,student92@example.com,securepassword
-93,Student 93,student93@example.com,securepassword
-94,Student 94,student94@example.com,securepassword
-95,Student 95,student95@example.com,securepassword
-96,Student 96,student96@example.com,securepassword
-97,Student 97,student97@example.com,securepassword
-98,Student 98,student98@example.com,securepassword
-99,Student 99,student99@example.com,securepassword
-100,Student 100,student100@example.com,securepassword
-101,Student 101,student101@example.com,securepassword
-102,Student 102,student102@example.com,securepassword
-103,Student 103,student103@example.com,securepassword
-104,Student 104,student104@example.com,securepassword
-105,Student 105,student105@example.com,securepassword
-106,Student 106,student106@example.com,securepassword
-107,Student 107,student107@example.com,securepassword
-108,Student 108,student108@example.com,securepassword
-109,Student 109,student109@example.com,securepassword
-110,Student 110,student110@example.com,securepassword
-111,Student 111,student111@example.com,securepassword
-112,Student 112,student112@example.com,securepassword
-113,Student 113,student113@example.com,securepassword
-114,Student 114,student114@example.com,securepassword
-115,Student 115,student115@example.com,securepassword
-116,Student 116,student116@example.com,securepassword
-117,Student 117,student117@example.com,securepassword
-118,Student 118,student118@example.com,securepassword
-119,Student 119,student119@example.com,securepassword
-120,Student 120,student120@example.com,securepassword
-121,Student 121,student121@example.com,securepassword
-122,Student 122,student122@example.com,securepassword
-123,Student 123,student123@example.com,securepassword
-124,Student 124,student124@example.com,securepassword
-125,Student 125,student125@example.com,securepassword
-126,Student 126,student126@example.com,securepassword
-127,Student 127,student127@example.com,securepassword
-128,Student 128,student128@example.com,securepassword
-129,Student 129,student129@example.com,securepassword
-130,Student 130,student130@example.com,securepassword
-131,Student 131,student131@example.com,securepassword
-132,Student 132,student132@example.com,securepassword
-133,Student 133,student133@example.com,securepassword
-134,Student 134,student134@example.com,securepassword
-135,Student 135,student135@example.com,securepassword
-136,Student 136,student136@example.com,securepassword
-137,Student 137,student137@example.com,securepassword
-138,Student 138,student138@example.com,securepassword
-139,Student 139,student139@example.com,securepassword
-140,Student 140,student140@example.com,securepassword
-141,Student 141,student141@example.com,securepassword
-142,Student 142,student142@example.com,securepassword
-143,Student 143,student143@example.com,securepassword
-144,Student 144,student144@example.com,securepassword
-145,Student 145,student145@example.com,securepassword
-146,Student 146,student146@example.com,securepassword
-147,Student 147,student147@example.com,securepassword
-148,Student 148,student148@example.com,securepassword
-149,Student 149,student149@example.com,securepassword
-150,Student 150,student150@example.com,securepassword
-151,Student 151,student151@example.com,securepassword
-152,Student 152,student152@example.com,securepassword
-153,Student 153,student153@example.com,securepassword
-154,Student 154,student154@example.com,securepassword
-155,Student 155,student155@example.com,securepassword
-156,Student 156,student156@example.com,securepassword
-157,Student 157,student157@example.com,securepassword
-158,Student 158,student158@example.com,securepassword
-159,Student 159,student159@example.com,securepassword
-160,Student 160,student160@example.com,securepassword
-161,Student 161,student161@example.com,securepassword
-162,Student 162,student162@example.com,securepassword
-163,Student 163,student163@example.com,securepassword
-164,Student 164,student164@example.com,securepassword
-165,Student 165,student165@example.com,securepassword
-166,Student 166,student166@example.com,securepassword
-167,Student 167,student167@example.com,securepassword
-168,Student 168,student168@example.com,securepassword
-169,Student 169,student169@example.com,securepassword
-170,Student 170,student170@example.com,securepassword
-171,Student 171,student171@example.com,securepassword
-172,Student 172,student172@example.com,securepassword
-173,Student 173,student173@example.com,securepassword
-174,Student 174,student174@example.com,securepassword
-175,Student 175,student175@example.com,securepassword
-176,Student 176,student176@example.com,securepassword
-177,Student 177,student177@example.com,securepassword
-178,Student 178,student178@example.com,securepassword
-179,Student 179,student179@example.com,securepassword
-180,Student 180,student180@example.com,securepassword
-181,Student 181,student181@example.com,securepassword
-182,Student 182,student182@example.com,securepassword
-183,Student 183,student183@example.com,securepassword
-184,Student 184,student184@example.com,securepassword
-185,Student 185,student185@example.com,securepassword
-186,Student 186,student186@example.com,securepassword
-187,Student 187,student187@example.com,securepassword
-188,Student 188,student188@example.com,securepassword
-189,Student 189,student189@example.com,securepassword
-190,Student 190,student190@example.com,securepassword
-191,Student 191,student191@example.com,securepassword
-192,Student 192,student192@example.com,securepassword
-193,Student 193,student193@example.com,securepassword
-194,Student 194,student194@example.com,securepassword
-195,Student 195,student195@example.com,securepassword
-196,Student 196,student196@example.com,securepassword
-197,Student 197,student197@example.com,securepassword
-198,Student 198,student198@example.com,securepassword
-199,Student 199,student199@example.com,securepassword
-200,Student 200,student200@example.com,securepassword
+ID,Name,Email,Password,Phone,DateOfBirth,Gender,BloodGroup,Address,Department,Program,Batch,CurrentSemester,CreditCompleted,TotalCredits,CGPA,AdmissionDate,GuardianName,GuardianPhone,GuardianRelation,TotalPayable,TotalPaid,TotalDue,PaymentStatus
+1000,John Doe,john.doe@example.com,pass123,123-456-7890,1998-05-10,Male,A+,123 Main St,Computer Science,B.Sc. in CS,2021,6,90,120,3.5,2021-09-01,Jane Doe,987-654-3210,Mother,150000,140000,10000,Partial
+1001,Jane Smith,jane.smith@example.com,pass456,098-765-4321,1999-02-20,Female,B-,456 Oak Ave,Electrical Engineering,B.Sc. in EE,2020,8,110,140,3.8,2020-09-01,John Smith,012-345-6789,Father,160000,160000,0,Paid
+1002,Peter Jones,peter.j@example.com,pass789,111-222-3333,1997-11-15,Male,O+,789 Pine Ln,Business Administration,BBA,2022,4,60,120,3.2,2022-09-01,Sarah Jones,444-555-6666,Mother,140000,135000,5000,Partial
+1003,Alice Brown,alice.b@example.com,passabc,444-333-2222,2000-08-01,Female,AB-,101 Elm Rd,Information Technology,B.Sc. in IT,2021,7,100,130,3.6,2021-09-01,David Brown,777-888-9999,Father,155000,155000,0,Paid
+1004,Robert Green,robert.g@example.com,passdef,555-666-7777,1999-03-25,Male,A-,202 Maple Dr,Civil Engineering,B.Sc. in CE,2020,8,120,150,3.9,2020-09-01,Mary Green,222-111-0000,Mother,170000,165000,5000,Partial
+1005,Emily White,emily.w@example.com,passghi,999-888-7777,2001-01-05,Female,B+,303 Birch Ct,Architecture,B.Arch,2022,5,70,140,3.4,2022-09-01,James White,333-444-5555,Father,180000,180000,0,Paid
+1006,Daniel Black,daniel.b@example.com,passjkl,121-343-5656,1998-07-18,Male,O-,404 Cedar St,Applied Physics,B.Sc. in AP,2021,6,85,120,3.3,2021-09-01,Laura Black,666-777-8888,Mother,145000,140000,5000,Partial
+1007,Olivia Gray,olivia.g@example.com,passmno,777-666-5555,2000-04-30,Female,AB+,505 Poplar Ave,Chemistry,B.Sc. in Chem,2022,4,55,120,3.1,2022-09-01,Michael Gray,999-000-1111,Father,135000,135000,0,Paid
+1008,William King,william.k@example.com,passpqr,333-222-1111,1997-09-12,Male,A+,606 Spruce Ln,Mathematics,B.Sc. in Math,2020,8,115,140,3.7,2020-09-01,Nancy King,000-111-2222,Mother,150000,145000,5000,Partial
+1009,Sophia Lee,sophia.l@example.com,passtuvo,888-999-0000,2001-06-03,Female,B-,707 Fir Rd,Biotechnology,B.Sc. in BT,2021,7,95,130,3.5,2021-09-01,Paul Lee,111-222-3333,Father,165000,165000,0,Paid
+1010,James Wilson,james.w@example.com,passwxyz,123-123-1234,1998-12-01,Male,O+,808 Willow Dr,Economics,B.Sc. in Econ,2022,5,65,120,3.0,2022-09-01,Linda Wilson,444-555-6666,Mother,140000,130000,10000,Partial
+1011,Ava Moore,ava.m@example.com,pass1234,456-456-4567,1999-07-22,Female,A-,909 Aspen Ct,Psychology,B.A. in Psych,2020,8,105,130,3.6,2020-09-01,Robert Moore,777-888-9999,Father,130000,130000,0,Paid
+1012,Benjamin Taylor,benjamin.t@example.com,pass5678,789-789-7890,2000-03-10,Male,B+,1010 Larch St,Sociology,B.A. in Soci,2021,6,80,120,3.2,2021-09-01,Susan Taylor,000-111-2222,Mother,120000,115000,5000,Partial
+1013,Mia Anderson,mia.a@example.com,pass9012,012-012-0123,2001-09-05,Female,AB-,1111 Poplar Ave,Political Science,B.A. in PoliSci,2022,4,50,110,3.0,2022-09-01,Thomas Anderson,333-444-5555,Father,110000,110000,0,Paid
+1014,Ethan Thomas,ethan.t@example.com,pass3456,345-345-3456,1998-04-14,Male,O+,1212 Willow Ln,History,B.A. in Hist,2020,8,110,130,3.7,2020-09-01,Karen Thomas,666-777-8888,Mother,125000,120000,5000,Partial
+1015,Charlotte Garcia,charlotte.g@example.com,pass7890,678-678-6789,1999-10-28,Female,A+,1313 Pine Dr,English Literature,B.A. in English,2021,7,90,120,3.4,2021-09-01,Mark Garcia,999-000-1111,Father,120000,120000,0,Paid
+1016,Alexander Rodriguez,alexander.r@example.com,passabcd,901-901-9012,2000-02-09,Male,B-,1414 Maple Ct,Journalism,B.A. in Journ,2022,5,60,110,3.1,2022-09-01,Patricia Rodriguez,000-111-2222,Mother,115000,110000,5000,Partial
+1017,Amelia Martinez,amelia.m@example.com,passefgh,234-234-2345,2001-08-17,Female,O-,1515 Birch St,Fine Arts,B.A. in FineArts,2021,6,75,120,3.3,2021-09-01,Charles Martinez,333-444-5555,Father,130000,130000,0,Paid
+1018,Oliver Hernandez,oliver.h@example.com,passijkl,567-567-5678,1998-06-02,Male,AB+,1616 Cedar Ave,Music,B.A. in Music,2020,8,100,130,3.5,2020-09-01,Elizabeth Hernandez,666-777-8888,Mother,125000,120000,5000,Partial
+1019,Evelyn Lopez,evelyn.l@example.com,passmnop,890-890-8901,1999-11-20,Female,A+,1717 Poplar Ln,Theater,B.A. in Theater,2022,4,45,100,2.9,2022-09-01,Joseph Lopez,999-000-1111,Father,100000,100000,0,Paid
+1020,Sebastian Gonzalez,sebastian.g@example.com,passqrst,112-112-1123,2000-01-25,Male,B+,1818 Willow Rd,Philosophy,B.A. in Phil,2021,7,85,120,3.2,2021-09-01,Maria Gonzalez,000-111-2222,Mother,115000,110000,5000,Partial
+1021,Harper Perez,harper.p@example.com,passuvwx,445-445-4456,2001-05-15,Female,O+,1919 Elm Dr,Communication,B.A. in Comm,2022,5,60,110,3.0,2022-09-01,David Perez,333-444-5555,Father,110000,110000,0,Paid
+1022,Gabriel Sanchez,gabriel.s@example.com,passyzab,778-778-7789,1998-03-08,Male,A-,2020 Maple Ct,Anthropology,B.A. in Anthro,2020,8,95,120,3.4,2020-09-01,Jessica Sanchez,666-777-8888,Mother,120000,115000,5000,Partial
+1023,Chloe Ramirez,chloe.r@example.com,passcdef,001-001-0012,1999-09-01,Female,B-,2121 Birch St,Geography,B.A. in Geo,2021,6,70,110,3.1,2021-09-01,Kevin Ramirez,999-000-1111,Father,105000,105000,0,Paid
+1024,Leo Cruz,leo.c@example.com,passghij,334-334-3345,2000-12-19,Male,O-,2222 Cedar Ave,Sociology,B.A. in Soci,2022,4,40,100,2.8,2022-09-01,Sarah Cruz,000-111-2222,Mother,95000,90000,5000,Partial
+1025,Victoria Morris,victoria.m@example.com,passklmn,667-667-6678,2001-04-24,Female,AB+,2323 Poplar Ln,Archaeology,B.A. in Arch,2021,7,80,120,3.3,2021-09-01,Daniel Morris,333-444-5555,Father,110000,110000,0,Paid
+1026,Jackson Rivera,jackson.r@example.com,passopqr,990-990-9901,1998-01-30,Male,A+,2424 Willow Rd,Linguistics,B.A. in Ling,2020,8,90,120,3.6,2020-09-01,Lisa Rivera,666-777-8888,Mother,115000,110000,5000,Partial
+1027,Grace Cook,grace.c@example.com,passtuva,223-223-2234,1999-06-11,Female,B-,2525 Elm Dr,Art History,B.A. in ArtHist,2022,5,55,100,2.9,2022-09-01,Gary Cook,999-000-1111,Father,100000,100000,0,Paid
+1028,Samuel Morgan,samuel.m@example.com,passwxyz,556-556-5567,2000-10-02,Male,O+,2626 Maple Ct,Urban Studies,B.A. in Urban,2021,6,70,110,3.1,2021-09-01,Barbara Morgan,000-111-2222,Mother,105000,100000,5000,Partial
+1029,Lily Bell,lily.b@example.com,pass1234,889-889-8890,2001-03-27,Female,A-,2727 Birch St,Environmental Studies,B.A. in Env,2022,4,45,100,2.8,2022-09-01,Paul Bell,333-444-5555,Father,95000,95000,0,Paid
+1030,Luke Murphy,luke.m@example.com,pass5678,112-112-1123,1998-05-18,Male,B+,2828 Cedar Ave,Criminology,B.A. in Crim,2020,8,85,110,3.3,2020-09-01,Nancy Murphy,666-777-8888,Mother,110000,105000,5000,Partial
+1031,Zoe Scott,zoe.s@example.com,pass9012,445-445-4456,1999-12-06,Female,AB+,2929 Poplar Ln,Gender Studies,B.A. in Gender,2021,7,75,110,3.2,2021-09-01,George Scott,999-000-1111,Father,105000,105000,0,Paid
+1032,Owen Cooper,owen.c@example.com,pass3456,778-778-7789,2000-07-29,Male,O-,3030 Willow Rd,Religious Studies,B.A. in Relig,2022,5,50,100,2.7,2022-09-01,Debra Cooper,000-111-2222,Mother,90000,85000,5000,Partial
+1033,Hannah King,hannah.k@example.com,pass7890,001-001-0012,2001-01-01,Female,A+,3131 Elm Dr,Classics,B.A. in Class,2021,6,65,100,3.0,2021-09-01,Steven King,333-444-5555,Father,100000,100000,0,Paid
+1034,Leo Baker,leo.b@example.com,passabcd,334-334-3345,1998-09-16,Male,B-,3232 Maple Ct,Asian Studies,B.A. in Asian,2020,8,80,110,3.2,2020-09-01,Sharon Baker,666-777-8888,Mother,105000,100000,5000,Partial
+1035,Ellie Adams,ellie.a@example.com,passefgh,667-667-6678,1999-04-04,Female,O+,3333 Birch St,European Studies,B.A. in Euro,2022,4,40,90,2.6,2022-09-01,Jeffrey Adams,999-000-1111,Father,85000,85000,0,Paid
+1036,Mason Nelson,mason.n@example.com,passijkl,990-990-9901,2000-11-21,Male,A-,3434 Cedar Ave,Latin American Studies,B.A. in Latin,2021,7,70,110,3.0,2021-09-01,Kimberly Nelson,000-111-2222,Mother,100000,95000,5000,Partial
+1037,Stella Carter,stella.c@example.com,passmnop,223-223-2234,2001-06-07,Female,B+,3535 Poplar Ln,African Studies,B.A. in Africa,2022,5,50,100,2.9,2022-09-01,Donald Carter,333-444-5555,Father,95000,95000,0,Paid
+1038,Caleb Evans,caleb.e@example.com,passqrst,556-556-5567,1998-02-13,Male,AB+,3636 Willow Rd,Middle Eastern Studies,B.A. in Middle,2020,8,90,120,3.4,2020-09-01,Angela Evans,666-777-8888,Mother,110000,105000,5000,Partial
+1039,Aurora Lewis,aurora.l@example.com,passuvwx,889-889-8890,1999-08-25,Female,A+,3737 Elm Dr,Canadian Studies,B.A. in Can,2021,6,60,100,2.8,2021-09-01,Edward Lewis,999-000-1111,Father,95000,95000,0,Paid
+1040,Jack Hall,jack.h@example.com,passyzab,112-112-1123,2000-04-08,Male,O+,3838 Maple Ct,Australian Studies,B.A. in Aus,2022,4,40,90,2.7,2022-09-01,Michelle Hall,000-111-2222,Mother,85000,80000,5000,Partial
+1041,Nora Young,nora.y@example.com,passcdef,445-445-4456,2001-10-14,Female,B-,3939 Birch St,Peace and Conflict Studies,B.A. in Peace,2021,7,70,110,3.1,2021-09-01,Ronald Young,333-444-5555,Father,100000,100000,0,Paid
+1042,Landon Hill,landon.h@example.com,passghij,778-778-7789,1998-07-03,Male,AB-,4040 Cedar Ave,International Relations,B.A. in IR,2020,8,80,120,3.3,2020-09-01,Janet Hill,666-777-8888,Mother,105000,100000,5000,Partial
+1043,Scarlett Green,scarlett.g@example.com,passklmn,001-001-0012,1999-01-29,Female,A+,4141 Poplar Ln,Public Policy,B.A. in Public,2022,5,50,100,2.9,2022-09-01,Kenneth Green,999-000-1111,Father,95000,95000,0,Paid
+1044,Henry Adams,henry.a@example.com,passopqr,334-334-3345,2000-09-07,Male,B+,4242 Willow Rd,Social Work,B.A. in SW,2021,6,65,110,3.0,2021-09-01,Christine Adams,000-111-2222,Mother,100000,95000,5000,Partial
+1045,Aria Baker,aria.b@example.com,passtuvo,667-667-6678,2001-02-19,Female,O-,4343 Elm Dr,Recreation and Leisure Studies,B.A. in RLS,2022,4,40,90,2.6,2022-09-01,Gary Baker,333-444-5555,Father,85000,85000,0,Paid
+1046,Grayson Nelson,grayson.n@example.com,passwxyz,990-990-9901,1998-10-05,Male,AB+,4444 Maple Ct,Sport Management,B.A. in Sport,2020,8,75,110,3.2,2020-09-01,Deborah Nelson,666-777-8888,Mother,100000,95000,5000,Partial
+1047,Ella Carter,ella.c@example.com,pass1234,223-223-2234,1999-03-16,Female,A-,4545 Birch St,Tourism Management,B.A. in Tour,2021,7,60,100,2.9,2021-09-01,Patrick Carter,999-000-1111,Father,95000,95000,0,Paid
+1048,Liam Evans,liam.e@example.com,pass5678,556-556-5567,2000-11-09,Male,B+,4646 Cedar Ave,Hospitality Management,B.A. in Hosp,2022,5,45,90,2.7,2022-09-01,Susan Evans,000-111-2222,Mother,90000,85000,5000,Partial
+1049,Madison Lewis,madison.l@example.com,pass9012,889-889-8890,2001-05-30,Female,O+,4747 Poplar Ln,Event Management,B.A. in Event,2021,6,55,100,2.8,2021-09-01,Gary Lewis,333-444-5555,Father,95000,95000,0,Paid
+1050,Noah Hall,noah.h@example.com,pass3456,112-112-1123,1998-01-20,Male,AB+,4848 Willow Rd,Public Relations,B.A. in PR,2020,8,80,120,3.3,2020-09-01,Laura Hall,666-777-8888,Mother,110000,105000,5000,Partial
+1051,Chloe Young,chloe.y@example.com,pass7890,445-445-4456,1999-07-12,Female,A+,4949 Elm Dr,Advertising,B.A. in Adv,2022,4,50,100,2.9,2022-09-01,Paul Young,999-000-1111,Father,95000,95000,0,Paid
+1052,Logan Hill,logan.h@example.com,passabcd,778-778-7789,2000-03-03,Male,B-,5050 Maple Ct,Marketing,B.A. in Mktg,2021,7,65,110,3.0,2021-09-01,Sarah Hill,000-111-2222,Mother,100000,95000,5000,Partial
+1053,Mia Green,mia.g@example.com,passefgh,001-001-0012,2001-09-28,Female,O-,5151 Birch St,Finance,B.A. in Finance,2022,5,40,90,2.6,2022-09-01,Thomas Green,333-444-5555,Father,85000,85000,0,Paid
+1054,Ethan Adams,ethan.a@example.com,passijkl,334-334-3345,1998-04-10,Male,AB+,5252 Cedar Ave,Accounting,B.A. in Acct,2020,8,70,110,3.1,2020-09-01,Karen Adams,666-777-8888,Mother,105000,100000,5000,Partial
+1055,Ava Baker,ava.b@example.com,passmnop,667-667-6678,1999-10-22,Female,A+,5353 Poplar Ln,Human Resources,B.A. in HR,2021,6,55,100,2.9,2021-09-01,Mark Baker,999-000-1111,Father,95000,95000,0,Paid
+1056,Oliver Nelson,oliver.n@example.com,passqrst,990-990-9901,2000-06-05,Male,B-,5454 Willow Rd,Supply Chain Management,B.A. in SCM,2022,4,35,80,2.5,2022-09-01,Patricia Nelson,000-111-2222,Mother,80000,75000,5000,Partial
+1057,Amelia Carter,amelia.c@example.com,passuvwx,223-223-2234,2001-12-11,Female,O-,5555 Elm Dr,Operations Management,B.A. in OM,2021,7,60,110,3.0,2021-09-01,Charles Carter,333-444-5555,Father,100000,100000,0,Paid
+1058,Lucas Evans,lucas.e@example.com,passyzab,556-556-5567,1998-08-01,Male,AB+,5656 Maple Ct,Project Management,B.A. in PM,2020,8,70,120,3.2,2020-09-01,Elizabeth Evans,666-777-8888,Mother,105000,100000,5000,Partial
+1059,Sophia Lewis,sophhia.l@example.com,passcdef,889-889-8890,1999-02-23,Female,A+,5757 Birch St,Entrepreneurship,B.A. in Ent,2022,5,45,90,2.7,2022-09-01,Joseph Lewis,999-000-1111,Father,90000,90000,0,Paid
+1060,Elijah Hall,elijah.h@example.com,passghij,112-112-1123,2000-10-17,Male,B+,5858 Cedar Ave,International Business,B.A. in IB,2021,6,50,100,2.8,2021-09-01,Maria Hall,000-111-2222,Mother,95000,90000,5000,Partial
+1061,Isabella Young,isabella.y@example.com,passklmn,445-445-4456,2001-04-09,Female,O-,5959 Poplar Ln,Healthcare Administration,B.A. in HA,2022,4,30,80,2.4,2022-09-01,David Young,333-444-5555,Father,80000,80000,0,Paid
+1062,Aiden Hill,aiden.h@example.com,passopqr,778-778-7789,1998-06-25,Male,AB+,6060 Willow Rd,Public Health,B.A. in PH,2020,8,65,110,3.1,2020-09-01,Jessica Hill,666-777-8888,Mother,100000,95000,5000,Partial
+1063,Zoe Green,zoe.g@example.com,passtuvo,001-001-0012,1999-11-06,Female,A-,6161 Elm Dr,Environmental Health,B.A. in EH,2021,7,50,100,2.9,2021-09-01,Kevin Green,999-000-1111,Father,95000,95000,0,Paid
+1064,James Adams,james.a@example.com,passwxyz,334-334-3345,2000-07-20,Male,B-,6262 Maple Ct,Nutrition,B.A. in Nutr,2022,5,35,80,2.6,2022-09-01,Sarah Adams,000-111-2222,Mother,80000,75000,5000,Partial
+1065,Lily Baker,loily.b@example.com,pass1234,667-667-6678,2001-03-02,Female,O+,6363 Birch St,Food Science,B.A. in FoodSci,2021,6,45,90,2.7,2021-09-01,Daniel Baker,333-444-5555,Father,85000,85000,0,Paid
+1066,Samuel Nelson,samuel.n@example.com,pass5678,990-990-9901,1998-05-13,Male,AB+,6464 Cedar Ave,Agriculture,B.A. in Ag,2020,8,60,100,3.0,2020-09-01,Lisa Nelson,666-777-8888,Mother,95000,90000,5000,Partial
+1067,Victoria Carter,victoria.c@example.com,pass9012,223-223-2234,1999-12-28,Female,A+,6565 Poplar Ln,Horticulture,B.A. in Hort,2022,4,30,80,2.5,2022-09-01,Gary Carter,999-000-1111,Father,80000,80000,0,Paid
+1068,Jackson Evans,jackson.e@example.com,pass3456,556-556-5567,2000-09-14,Male,B-,6666 Willow Rd,Forestry,B.A. in Forest,2021,7,50,90,2.8,2021-09-01,Barbara Evans,000-111-2222,Mother,90000,85000,5000,Partial
+1069,Grace Lewis,grace.l@example.com,pass7890,889-889-8890,2001-06-01,Female,O-,6767 Elm Dr,Wildlife Management,B.A. in Wildlife,2022,5,40,80,2.6,2022-09-01,Paul Lewis,333-444-5555,Father,85000,85000,0,Paid
+1070,Liam Hall,liam.h@example.com,passabcd,112-112-1123,1998-02-07,Male,AB+,6868 Maple Ct,Fisheries Science,B.A. in Fish,2020,8,60,100,3.1,2020-09-01,Nancy Hall,666-777-8888,Mother,95000,90000,5000,Partial
+1071,Charlotte Young,charlotte.y@example.com,passefgh,445-445-4456,1999-08-19,Female,A+,6969 Birch St,Animal Science,B.A. in Animal,2021,6,45,90,2.7,2021-09-01,George Young,999-000-1111,Father,90000,90000,0,Paid
+1072,Benjamin Hill,benjamin.h@example.com,passijkl,778-778-7789,2000-04-24,Male,B+,7070 Cedar Ave,Veterinary Medicine,B.Sc. in Vet,2022,4,30,80,2.5,2022-09-01,Debra Hill,000-111-2222,Mother,100000,95000,5000,Partial
+1073,Harper Green,harper.g@example.com,passmnop,001-001-0012,2001-10-08,Female,O-,7171 Poplar Ln,Pharmacy,B.Pharm,2021,7,50,90,2.8,2021-09-01,Steven Green,333-444-5555,Father,105000,105000,0,Paid
+1074,Alexander Adams,alexander.a@example.com,passqrst,334-334-3345,1998-03-01,Male,AB+,7272 Willow Rd,Nursing,B.Sc. in Nursing,2020,8,65,110,3.2,2020-09-01,Sharon Adams,666-777-8888,Mother,110000,105000,5000,Partial
+1075,Amelia Baker,amelia.b@example.com,passuvwx,667-667-6678,1999-09-13,Female,A+,7373 Elm Dr,Physical Therapy,B.Sc. in PT,2022,5,40,90,2.7,2022-09-01,Jeffrey Baker,999-000-1111,Father,100000,100000,0,Paid
+1076,Oliver Nelson,olivper.n@example.com,passyzab,990-990-9901,2000-05-27,Male,B-,7474 Maple Ct,Occupational Therapy,B.Sc. in OT,2021,6,45,90,2.8,2021-09-01,Kimberly Nelson,000-111-2222,Mother,100000,95000,5000,Partial
+1077,Sophia Carter,sophia.c@example.com,passcdef,223-223-2234,2001-11-10,Female,O-,7575 Birch St,Speech-Language Pathology,B.Sc. in SLP,2022,4,30,80,2.5,2022-09-01,Donald Carter,333-444-5555,Father,95000,95000,0,Paid
+1078,Elijah Evans,elijah.e@example.com,passghij,556-556-5567,1998-07-06,Male,AB+,7676 Cedar Ave,Medical Laboratory Science,B.Sc. in MLS,2020,8,60,100,3.0,2020-09-01,Angela Evans,666-777-8888,Mother,105000,100000,5000,Partial
+1079,Isabella Lewis,isabella.l@example.com,passklmn,889-889-8890,1999-01-21,Female,A+,7777 Poplar Ln,Radiologic Technology,B.Sc. in RadTech,2021,7,45,90,2.7,2021-09-01,Edward Lewis,999-000-1111,Father,100000,100000,0,Paid
+1080,Noah Hall,nopah.h@example.com,passopqr,112-112-1123,2000-09-04,Male,B+,7878 Willow Rd,Dental Hygiene,B.Sc. in DH,2022,5,30,80,2.5,2022-09-01,Michelle Hall,000-111-2222,Mother,95000,90000,5000,Partial
+1081,Ava Young,ava.y@example.com,passtuvo,445-445-4456,2001-05-18,Female,O-,7979 Elm Dr,Respiratory Therapy,B.Sc. in RT,2021,6,40,80,2.6,2021-09-01,Ronald Young,333-444-5555,Father,90000,90000,0,Paid
+1082,Lucas Hill,lucas.h@example.com,passwxyz,778-778-7789,1998-01-09,Male,AB+,8080 Maple Ct,Paramedicine,B.Sc. in Paramed,2020,8,55,90,2.9,2020-09-01,Janet Hill,666-777-8888,Mother,100000,95000,5000,Partial
+1083,Zoe Green,zoie.g@example.com,pass1234,001-001-0012,1999-07-25,Female,A-,8181 Birch St,Chiropractic,B.Sc. in Chiro,2022,4,25,70,2.4,2022-09-01,Kenneth Green,999-000-1111,Father,90000,90000,0,Paid
+1084,James Adams,jaomes.a@example.com,pass5678,334-334-3345,2000-03-17,Male,B-,8282 Cedar Ave,Optometry,B.Sc. in Optom,2021,7,40,80,2.6,2021-09-01,Christine Adams,000-111-2222,Mother,95000,90000,5000,Partial
+1085,Lily Baker,lilpy.b@example.com,pass9012,667-667-6678,2001-09-01,Female,O+,8383 Poplar Ln,Podiatry,B.Sc. in Pod,2022,5,25,70,2.4,2022-09-01,Gary Baker,333-444-5555,Father,90000,90000,0,Paid
+1086,Samuel Nelson,sasmuel.n@example.com,pass3456,990-990-9901,1998-04-26,Male,AB+,8484 Willow Rd,Dietetics,B.Sc. in Diet,2020,8,50,90,2.8,2020-09-01,Deborah Nelson,666-777-8888,Mother,100000,95000,5000,Partial
+1087,Victoria Carter,vicstoria.c@example.com,pass7890,223-223-2234,1999-10-10,Female,A-,8585 Elm Dr,Exercise Science,B.Sc. in ExSci,2021,6,35,70,2.5,2021-09-01,Patrick Carter,999-000-1111,Father,90000,90000,0,Paid
+1088,Jackson Evans,jacskson.e@example.com,passabcd,556-556-5567,2000-06-23,Male,B-,8686 Maple Ct,Kinesiology,B.Sc. in Kin,2022,4,20,60,2.3,2022-09-01,Susan Evans,000-111-2222,Mother,85000,80000,5000,Partial
+1089,Grace Lewis,gracse.l@example.com,passefgh,889-889-8890,2001-12-04,Female,O-,8787 Birch St,Sports Science,B.Sc. in SportSci,2021,7,30,70,2.4,2021-09-01,Gary Lewis,333-444-5555,Father,90000,90000,0,Paid
+1090,Liam Hall,lisam.h@example.com,passijkl,112-112-1123,1998-08-15,Male,AB+,8888 Cedar Ave,Rehabilitation Science,B.Sc. in Rehab,2020,8,45,80,2.7,2020-09-01,Laura Hall,666-777-8888,Mother,95000,90000,5000,Partial
+1091,Charlotte Young,charslotte.y@example.com,passmnop,445-445-4456,1999-02-06,Female,A+,8989 Poplar Ln,Health Informatics,B.Sc. in HI,2022,5,25,60,2.3,2022-09-01,Paul Young,999-000-1111,Father,85000,85000,0,Paid
+1092,Benjamin Hill,besnjamin.h@example.com,passqrst,778-778-7789,2000-10-29,Male,B-,9090 Willow Rd,Bioinformatics,B.Sc. in Bioinfo,2021,6,35,70,2.6,2021-09-01,Sarah Hill,000-111-2222,Mother,90000,85000,5000,Partial
+1093,Harper Green,hasrper.g@example.com,passuvwx,001-001-0012,2001-04-12,Female,O-,9191 Elm Dr,Biomedical Engineering,B.Sc. in BME,2022,4,20,60,2.2,2022-09-01,Thomas Green,333-444-5555,Father,85000,850000,0,Paid
+1094,Alexander Adams,alsexander.a@example.com,passyzab,334-334-3345,1998-06-01,Male,AB+,9292 Maple Ct,Chemical Engineering,B.Sc. in ChemEng,2020,8,50,90,2.9,2020-09-01,Karen Adams,666-777-8888,Mother,100000,95000,5000,Partial
+1095,Amelia Baker,amelsia.b@example.com,passcdef,667-667-6678,1999-11-14,Female,A+,9393 Birch St,Environmental Engineering,B.Sc. in EnvEng,2021,7,35,70,2.5,2021-09-01,Mark Baker,999-000-1111,Father,90000,90000,0,Paid
+1096,Oliver Nelson,olivser.n@example.com,passghij,990-990-9901,2000-07-27,Male,B-,9494 Cedar Ave,Geological Engineering,B.Sc. in GeoEng,2022,5,20,60,2.2,2022-09-01,Patricia Nelson,000-111-2222,Mother,85000,80000,5000,Partial
+1097,Sophia Carter,sopshia.c@example.com,passklmn,223-223-2234,2001-01-03,Female,O-,9595 Poplar Ln,Materials Engineering,B.Sc. in MatEng,2021,6,30,70,2.4,2021-09-01,Charles Carter,333-444-5555,Father,90000,90000,0,Paid
+1098,Elijah Evans,elisjah.e@example.com,passmnop,556-556-5567,1998-09-19,Male,AB+,9696 Willow Rd,Software Engineering,B.Sc. in SE,2020,8,45,80,2.8,2020-09-01,Elizabeth Evans,666-777-8888,Mother,95000,90000,5000,Partial
+1099,Isabella Lewis,issabella.l@example.com,passqrst,889-889-8890,1999-03-08,Female,A+,9797 Elm Dr,Mechatronics Engineering,B.Sc. in MechaEng,2022,4,25,60,2.3,2022-09-01,Joseph Lewis,999-000-1111,Father,85000,85000,0,Paid

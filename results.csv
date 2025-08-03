@@ -1,201 +1,301 @@
-ID,StudentID,Subject,Score
-1,101,Mathematics,85
-2,101,Physics,78
-3,102,Mathematics,92
-4,102,Chemistry,88
-5,103,English,75
-6,103,History,80
-7,104,Mathematics,65
-8,104,Physics,70
-9,105,Chemistry,95
-10,105,English,82
-11,106,Biology,77
-12,106,Mathematics,89
-13,107,Chemistry,72
-14,107,English,91
-15,108,History,84
-16,108,Physics,68
-17,109,Mathematics,79
-18,109,Biology,86
-19,110,English,90
-20,110,Chemistry,73
-21,111,Physics,81
-22,111,History,76
-23,112,Mathematics,88
-24,112,Biology,71
-25,113,English,93
-26,113,Chemistry,80
-27,114,Physics,74
-28,114,History,85
-29,115,Mathematics,69
-30,115,Biology,83
-31,116,English,78
-32,116,Chemistry,87
-33,117,Physics,92
-34,117,History,70
-35,118,Mathematics,81
-36,118,Biology,75
-37,119,English,89
-38,119,Chemistry,67
-39,120,Physics,94
-40,120,History,82
-41,121,Mathematics,76
-42,121,Biology,80
-43,122,English,91
-44,122,Chemistry,73
-45,123,Physics,85
-46,123,History,69
-47,124,Mathematics,90
-48,124,Biology,77
-49,125,English,72
-50,125,Chemistry,88
-51,126,Physics,83
-52,126,History,71
-53,127,Mathematics,95
-54,127,Biology,79
-55,128,English,68
-56,128,Chemistry,86
-57,129,Physics,70
-58,129,History,93
-59,130,Mathematics,74
-60,130,Biology,84
-61,131,English,79
-62,131,Chemistry,81
-63,132,Physics,86
-64,132,History,75
-65,133,Mathematics,91
-66,133,Biology,67
-67,134,English,82
-68,134,Chemistry,89
-69,135,Physics,73
-70,135,History,78
-71,136,Mathematics,85
-72,136,Biology,90
-73,137,English,70
-74,137,Chemistry,75
-75,138,Physics,88
-76,138,History,83
-77,139,Mathematics,72
-78,139,Biology,81
-79,140,English,94
-80,140,Chemistry,69
-81,141,Physics,77
-82,141,History,86
-83,142,Mathematics,93
-84,142,Biology,74
-85,143,English,80
-86,143,Chemistry,85
-87,144,Physics,71
-88,144,History,92
-89,145,Mathematics,78
-90,145,Biology,87
-91,146,English,66
-92,146,Chemistry,90
-93,147,Physics,82
-94,147,History,75
-95,148,Mathematics,89
-96,148,Biology,79
-97,149,English,73
-98,149,Chemistry,84
-99,150,Physics,91
-100,150,History,68
-101,101,Mathematics,80
-102,102,Physics,75
-103,103,Chemistry,90
-104,104,English,85
-105,105,History,70
-106,106,Mathematics,95
-107,107,Physics,72
-108,108,Chemistry,88
-109,109,English,79
-110,110,History,83
-111,111,Mathematics,65
-112,112,Physics,78
-113,113,Chemistry,91
-114,114,English,82
-115,115,History,76
-116,116,Mathematics,89
-117,117,Physics,70
-118,118,Chemistry,93
-119,119,English,74
-120,120,History,87
-121,121,Mathematics,71
-122,122,Physics,84
-123,123,Chemistry,77
-124,124,English,92
-125,125,History,68
-126,126,Mathematics,80
-127,127,Physics,75
-128,128,Chemistry,90
-129,129,English,85
-130,130,History,70
-131,131,Mathematics,95
-132,132,Physics,72
-133,133,Chemistry,88
-134,134,English,79
-135,135,History,83
-136,136,Mathematics,65
-137,137,Physics,78
-138,138,Chemistry,91
-139,139,English,82
-140,140,History,76
-141,141,Mathematics,89
-142,142,Physics,70
-143,143,Chemistry,93
-144,144,English,74
-145,145,History,87
-146,146,Mathematics,71
-147,147,Physics,84
-148,148,Chemistry,77
-149,149,English,92
-150,150,History,68
-151,101,Mathematics,88
-152,102,Physics,70
-153,103,Chemistry,95
-154,104,English,80
-155,105,History,72
-156,106,Mathematics,90
-157,107,Physics,75
-158,108,Chemistry,83
-159,109,English,78
-160,110,History,89
-161,111,Mathematics,67
-162,112,Physics,81
-163,113,Chemistry,76
-164,114,English,94
-165,115,History,69
-166,116,Mathematics,85
-167,117,Physics,91
-168,118,Chemistry,70
-169,119,English,86
-170,120,History,73
-171,121,Mathematics,92
-172,122,Physics,77
-173,123,Chemistry,80
-174,124,English,71
-175,125,History,88
-176,126,Mathematics,74
-177,127,Physics,82
-178,128,Chemistry,65
-179,129,English,93
-180,130,History,79
-181,131,Mathematics,84
-182,132,Physics,66
-183,133,Chemistry,87
-184,134,English,72
-185,135,History,90
-186,136,Mathematics,75
-187,137,Physics,80
-188,138,Chemistry,68
-189,139,English,91
-190,140,History,77
-191,141,Mathematics,83
-192,142,Physics,70
-193,143,Chemistry,94
-194,144,English,75
-195,145,History,82
-196,146,Mathematics,69
-197,147,Physics,88
-198,148,Chemistry,73
-199,149,English,90
-200,150,History,76
+StudentID,Course,Grade,Credit,Semester
+1000,Introduction to Programming,A,3,Spring 2023
+1000,Calculus I,B+,4,Spring 2023
+1000,Data Structures,A-,3,Fall 2023
+1001,Circuit Analysis,A,3,Spring 2023
+1001,Differential Equations,B,4,Spring 2023
+1001,Electromagnetics,A-,3,Fall 2023
+1002,Microeconomics,B+,3,Spring 2023
+1002,Business Statistics,A,3,Spring 2023
+1002,Financial Accounting,B,4,Fall 2023
+1003,Web Development,A,3,Spring 2023
+1003,Database Management,A-,3,Spring 2023
+1003,Operating Systems,B+,4,Fall 2023
+1004,Structural Analysis,A,4,Spring 2023
+1004,Fluid Mechanics,A-,3,Spring 2023
+1004,Geotechnical Engineering,B+,3,Fall 2023
+1005,Architectural Design I,A,4,Spring 2023
+1005,History of Architecture,B+,3,Spring 2023
+1005,Building Materials,A-,3,Fall 2023
+1006,Thermodynamics,A,3,Spring 2023
+1006,Quantum Mechanics,B,4,Spring 2023
+1006,Statistical Physics,A-,3,Fall 2023
+1007,Organic Chemistry,B+,4,Spring 2023
+1007,Inorganic Chemistry,A,3,Spring 2023
+1007,Physical Chemistry,B,4,Fall 2023
+1008,Linear Algebra,A,3,Spring 2023
+1008,Discrete Mathematics,A-,3,Spring 2023
+1008,Numerical Methods,B+,4,Fall 2023
+1009,Genetics,A,4,Spring 2023
+1009,Microbiology,B+,3,Spring 2023
+1009,Immunology,A-,3,Fall 2023
+1010,Macroeconomics,B,3,Spring 2023
+1010,Econometrics,C+,4,Spring 2023
+1010,International Economics,B-,3,Fall 2023
+1011,Cognitive Psychology,A,3,Spring 2023
+1011,Social Psychology,A-,3,Spring 2023
+1011,Developmental Psychology,B+,4,Fall 2023
+1012,Sociological Theory,B+,3,Spring 2023
+1012,Research Methods in Sociology,A,3,Spring 2023
+1012,Urban Sociology,B,4,Fall 2023
+1013,Political Theory,B,3,Spring 2023
+1013,International Politics,C+,3,Spring 2023
+1013,Public Administration,B-,4,Fall 2023
+1014,World History,A,3,Spring 2023
+1014,Ancient Civilizations,A-,3,Spring 2023
+1014,Modern History,B+,4,Fall 2023
+1015,Literary Criticism,A,3,Spring 2023
+1015,Shakespeare,A-,3,Spring 2023
+1015,American Literature,B+,4,Fall 2023
+1016,News Reporting,B+,3,Spring 2023
+1016,Media Ethics,A,3,Spring 2023
+1016,Broadcast Journalism,B,4,Fall 2023
+1017,Drawing Fundamentals,A,3,Spring 2023
+1017,Painting Techniques,A-,3,Spring 2023
+1017,Sculpture,B+,4,Fall 2023
+1018,Music Theory,A,3,Spring 2023
+1018,Orchestration,A-,3,Spring 2023
+1018,Music History,B+,4,Fall 2023
+1019,Acting Techniques,B,3,Spring 2023
+1019,Directing,C+,3,Spring 2023
+1019,Playwriting,B-,4,Fall 2023
+1020,Ethics,B+,3,Spring 2023
+1020,Logic,A,3,Spring 2023
+1020,Metaphysics,B,4,Fall 2023
+1021,Interpersonal Communication,A,3,Spring 2023
+1021,Public Speaking,A-,3,Spring 2023
+1021,Organizational Communication,B+,4,Fall 2023
+1022,Cultural Anthropology,B+,3,Spring 2023
+1022,Archaeology,A,3,Spring 2023
+1022,Linguistic Anthropology,B,4,Fall 2023
+1023,Physical Geography,B,3,Spring 2023
+1023,Human Geography,C+,3,Spring 2023
+1023,GIS,B-,4,Fall 2023
+1024,Social Problems,B,3,Spring 2023
+1024,Deviance and Society,C+,3,Spring 2023
+1024,Family Sociology,B-,4,Fall 2023
+1025,Classical Archaeology,A,3,Spring 2023
+1025,Field Methods in Archaeology,A-,3,Spring 2023
+1025,Prehistoric Archaeology,B+,4,Fall 2023
+1026,Phonetics,A,3,Spring 2023
+1026,Syntax,A-,3,Spring 2023
+1026,Semantics,B+,4,Fall 2023
+1027,Renaissance Art,B+,3,Spring 2023
+1027,Modern Art,A,3,Spring 2023
+1027,Contemporary Art,B,4,Fall 2023
+1028,Urban Planning,B,3,Spring 2023
+1028,Urban Design,C+,3,Spring 2023
+1028,Community Development,B-,4,Fall 2023
+1029,Environmental Policy,A,3,Spring 2023
+1029,Conservation Biology,A-,3,Spring 2023
+1029,Climate Change,B+,4,Fall 2023
+1030,Criminal Justice System,B+,3,Spring 2023
+1030,Criminological Theory,A,3,Spring 2023
+1030,Victimology,B,4,Fall 2023
+1031,Gender and Society,A,3,Spring 2023
+1031,Feminist Theory,A-,3,Spring 2023
+1031,Sexuality and Gender,B+,4,Fall 2023
+1032,World Religions,B,3,Spring 2023
+1032,Mythology,C+,3,Spring 2023
+1032,Religious Philosophy,B-,4,Fall 2023
+1033,Greek and Roman Civilization,A,3,Spring 2023
+1033,Classical Mythology,A-,3,Spring 2023
+1033,Latin I,B+,4,Fall 2023
+1034,East Asian History,B+,3,Spring 2023
+1034,Japanese Language I,A,3,Spring 2023
+1034,Chinese Culture,B,4,Fall 2023
+1035,European History,B,3,Spring 2023
+1035,French Revolution,C+,3,Spring 2023
+1035,Modern Europe,B-,4,Fall 2023
+1036,Latin American History,A,3,Spring 2023
+1036,Spanish Language I,A-,3,Spring 2023
+1036,Latin American Culture,B+,4,Fall 2023
+1037,African History,B+,3,Spring 2023
+1037,African Politics,A,3,Spring 2023
+1037,African Cultures,B,4,Fall 2023
+1038,Middle Eastern History,A,3,Spring 2023
+1038,Islamic Civilization,A-,3,Spring 2023
+1038,Middle Eastern Politics,B+,4,Fall 2023
+1039,Canadian History,B+,3,Spring 2023
+1039,Canadian Politics,A,3,Spring 2023
+1039,Canadian Culture,B,4,Fall 2023
+1040,Australian History,B,3,Spring 2023
+1040,Australian Politics,C+,3,Spring 2023
+1040,Australian Culture,B-,4,Fall 2023
+1041,Conflict Resolution,A,3,Spring 2023
+1041,Human Rights,A-,3,Spring 2023
+1041,International Law,B+,4,Fall 2023
+1042,Diplomacy,B+,3,Spring 2023
+1042,Global Governance,A,3,Spring 2023
+1042,Foreign Policy Analysis,B,4,Fall 2023
+1043,Public Sector Management,A,3,Spring 2023
+1043,Policy Analysis,A-,3,Spring 2023
+1043,Urban Policy,B+,4,Fall 2023
+1044,Social Welfare Policy,B+,3,Spring 2023
+1044,Casework,A,3,Spring 2023
+1044,Group Work in Social Work,B,4,Fall 2023
+1045,Leisure and Society,A,3,Spring 2023
+1045,Recreation Planning,A-,3,Spring 2023
+1045,Event Planning,B+,4,Fall 2023
+1046,Sport Marketing,B+,3,Spring 2023
+1046,Sport Ethics,A,3,Spring 2023
+1046,Facility Management,B,4,Fall 2023
+1047,Sustainable Tourism,A,3,Spring 2023
+1047,Ecotourism,A-,3,Spring 2023
+1047,Destination Management,B+,4,Fall 2023
+1048,Hotel Operations,B+,3,Spring 2023
+1048,Food and Beverage Management,A,3,Spring 2023
+1048,Revenue Management,B,4,Fall 2023
+1049,Event Design,A,3,Spring 2023
+1049,Event Marketing,A-,3,Spring 2023
+1049,Risk Management for Events,B+,4,Fall 2023
+1050,Public Relations Principles,B+,3,Spring 2023
+1050,Crisis Communication,A,3,Spring 2023
+1050,Digital PR,B,4,Fall 2023
+1051,Advertising Principles,A,3,Spring 2023
+1051,Copywriting,A-,3,Spring 2023
+1051,Media Planning,B+,4,Fall 2023
+1052,Marketing Principles,B+,3,Spring 2023
+1052,Consumer Behavior,A,3,Spring 2023
+1052,Marketing Research,B,4,Fall 2023
+1053,Financial Markets,A,3,Spring 2023
+1053,Investment Analysis,A-,3,Spring 2023
+1053,Corporate Finance,B+,4,Fall 2023
+1054,Financial Accounting I,B+,3,Spring 2023
+1054,Managerial Accounting,A,3,Spring 2023
+1054,Taxation,B,4,Fall 2023
+1055,Human Resource Management,A,3,Spring 2023
+1055,Recruitment and Selection,A-,3,Spring 2023
+1055,Training and Development,B+,4,Fall 2023
+1056,Supply Chain Fundamentals,B+,3,Spring 2023
+1056,Logistics Management,A,3,Spring 2023
+1056,Procurement,B,4,Fall 2023
+1057,Operations Research,A,3,Spring 2023
+1057,Quality Management,A-,3,Spring 2023
+1057,Production Planning,B+,4,Fall 2023
+1058,Project Planning,B+,3,Spring 2023
+1058,Project Control,A,3,Spring 2023
+1058,Agile Project Management,B,4,Fall 2023
+1059,Entrepreneurial Thinking,A,3,Spring 2023
+1059,New Venture Creation,A-,3,Spring 2023
+1059,Small Business Management,B+,4,Fall 2023
+1060,International Trade,B+,3,Spring 2023
+1060,Global Marketing,A,3,Spring 2023
+1060,Cross-Cultural Management,B,4,Fall 2023
+1061,Healthcare Systems,A,3,Spring 2023
+1061,Healthcare Policy,A-,3,Spring 2023
+1061,Healthcare Economics,B+,4,Fall 2023
+1062,Epidemiology,B+,3,Spring 2023
+1062,Health Promotion,A,3,Spring 2023
+1062,Environmental Health,B,4,Fall 2023
+1063,Food Safety,A,3,Spring 2023
+1063,Nutrition and Public Health,A-,3,Spring 2023
+1063,Foodborne Illness,B+,4,Fall 2023
+1064,Human Nutrition,B+,3,Spring 2023
+1064,Dietetics,A,3,Spring 2023
+1064,Meal Planning,B,4,Fall 2023
+1065,Food Chemistry,A,3,Spring 2023
+1065,Food Processing,A-,3,Spring 2023
+1065,Food Microbiology,B+,4,Fall 2023
+1066,Crop Science,B+,3,Spring 2023
+1066,Soil Science,A,3,Spring 2023
+1066,Agricultural Economics,B,4,Fall 2023
+1067,Plant Propagation,A,3,Spring 2023
+1067,Landscape Design,A-,3,Spring 2023
+1067,Pest Management,B+,4,Fall 2023
+1068,Forest Ecology,B+,3,Spring 2023
+1068,Silviculture,A,3,Spring 2023
+1068,Forest Management,B,4,Fall 2023
+1069,Wildlife Biology,A,3,Spring 2023
+1069,Conservation Practices,A-,3,Spring 2023
+1069,Ecology,B+,4,Fall 2023
+1070,Aquaculture,B+,3,Spring 2023
+1070,Fish Biology,A,3,Spring 2023
+1070,Fisheries Management,B,4,Fall 2023
+1071,Animal Anatomy,A,3,Spring 2023
+1071,Animal Physiology,A-,3,Spring 2023
+1071,Animal Behavior,B+,4,Fall 2023
+1072,Veterinary Anatomy,B+,3,Spring 2023
+1072,Veterinary Physiology,A,3,Spring 2023
+1072,Veterinary Pharmacology,B,4,Fall 2023
+1073,Pharmacology,A,3,Spring 2023
+1073,Medicinal Chemistry,A-,3,Spring 2023
+1073,Pharmacy Practice,B+,4,Fall 2023
+1074,Nursing Fundamentals,B+,3,Spring 2023
+1074,Medical-Surgical Nursing,A,3,Spring 2023
+1074,Pediatric Nursing,B,4,Fall 2023
+1075,Human Kinesiology,A,3,Spring 2023
+1075,Therapeutic Exercise,A-,3,Spring 2023
+1075,Clinical Assessment,B+,4,Fall 2023
+1076,Occupational Therapy Principles,B+,3,Spring 2023
+1076,Rehabilitation Techniques,A,3,Spring 2023
+1076,Assistive Technology,B,4,Fall 2023
+1077,Speech Anatomy,A,3,Spring 2023
+1077,Language Development,A-,3,Spring 2023
+1077,Voice Disorders,B+,4,Fall 2023
+1078,Clinical Chemistry,B+,3,Spring 2023
+1078,Hematology,A,3,Spring 2023
+1078,Microbiology for MLS,B,4,Fall 2023
+1079,Radiographic Anatomy,A,3,Spring 2023
+1079,Radiation Physics,A-,3,Spring 2023
+1079,Radiographic Procedures,B+,4,Fall 2023
+1080,Oral Anatomy,B+,3,Spring 2023
+1080,Periodontology,A,3,Spring 2023
+1080,Dental Radiology,B,4,Fall 2023
+1081,Respiratory Anatomy,A,3,Spring 2023
+1081,Respiratory Physiology,A-,3,Spring 2023
+1081,Ventilator Management,B+,4,Fall 2023
+1082,Emergency Medical Techniques,B+,3,Spring 2023
+1082,Trauma Management,A,3,Spring 2023
+1082,Prehospital Care,B,4,Fall 2023
+1083,Spinal Anatomy,A,3,Spring 2023
+1083,Chiropractic Adjustments,A-,3,Spring 2023
+1083,Diagnostic Imaging,B+,4,Fall 2023
+1084,Ocular Anatomy,B+,3,Spring 2023
+1084,Ophthalmic Optics,A,3,Spring 2023
+1084,Vision Science,B,4,Fall 2023
+1085,Foot and Ankle Anatomy,A,3,Spring 2023
+1085,Biomechanics of Gait,A-,3,Spring 2023
+1085,Podiatric Medicine,B+,4,Fall 2023
+1086,Nutrition Assessment,B+,3,Spring 2023
+1086,Medical Nutrition Therapy,A,3,Spring 2023
+1086,Community Nutrition,B,4,Fall 2023
+1087,Exercise Physiology,A,3,Spring 2023
+1087,Strength and Conditioning,A-,3,Spring 2023
+1087,Sports Nutrition,B+,4,Fall 2023
+1088,Biomechanics,B+,3,Spring 2023
+1088,Motor Control,A,3,Spring 2023
+1088,Exercise Prescription,B,4,Fall 2023
+1089,Sports Psychology,A,3,Spring 2023
+1089,Coaching Methods,A-,3,Spring 2023
+1089,Sport Injury Management,B+,4,Fall 2023
+1090,Rehabilitation Technologies,B+,3,Spring 2023
+1090,Adaptive Devices,A,3,Spring 2023
+1090,Prosthetics and Orthotics,B,4,Fall 2023
+1091,Health Data Management,A,3,Spring 2023
+1091,EHR Systems,A-,3,Spring 2023
+1091,Health Information Exchange,B+,4,Fall 2023
+1092,Genomics,B+,3,Spring 2023
+1092,Proteomics,A,3,Spring 2023
+1092,Drug Discovery,B,4,Fall 2023
+1093,Biomaterials,A,3,Spring 2023
+1093,Medical Devices,A-,3,Spring 2023
+1093,Bioinstrumentation,B+,4,Fall 2023
+1094,Chemical Process Principles,B+,3,Spring 2023
+1094,Reaction Engineering,A,3,Spring 2023
+1094,Separation Processes,B,4,Fall 2023
+1095,Water Treatment,A,3,Spring 2023
+1095,Air Pollution Control,A-,3,Spring 2023
+1095,Waste Management,B+,4,Fall 2023
+1096,Geomechanics,B+,3,Spring 2023
+1096,Rock Mechanics,A,3,Spring 2023
+1096,Site Investigation,B,4,Fall 2023
+1097,Material Science,A,3,Spring 2023
+1097,Polymer Engineering,A-,3,Spring 2023
+1097,Ceramic Materials,B+,4,Fall 2023
+1098,Software Design,B+,3,Spring 2023
+1098,Software Testing,A,3,Spring 2023
+1098,Software Project Management,B,4,Fall 2023
+1099,Robotics,A,3,Spring 2023
+1099,Control Systems,A-,3,Spring 2023
+1099,Automation,B+,4,Fall 2023

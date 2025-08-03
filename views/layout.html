@@ -1,0 +1,127 @@
+{{define "layout"}}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{.Title}} - Student Portal</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'diu-blue': '#1e3a8a',
+                        'diu-dark': '#1e293b',
+                        'diu-light': '#f1f5f9'
+                    }
+                }
+            }
+        }
+    </script>
+    {{template "head" .}}
+</head>
+<body class="bg-gray-100">
+    <div class="flex h-screen">
+        <!-- Sidebar -->
+        <div id="sidebar" class="bg-diu-dark text-white w-64 min-h-screen transition-all duration-300 ease-in-out">
+            <!-- Logo Section -->
+            <div class="p-4 border-b border-gray-700">
+                <div class="flex items-center space-x-3">
+                    <div class="w-10 h-10 bg-blue-600 rounded-full flex items-center justify-center">
+                        <i class="fas fa-graduation-cap text-white"></i>
+                    </div>
+                    <div>
+                        <h2 class="text-sm font-bold text-blue-400">Daffodil</h2>
+                        <p class="text-xs text-green-400">International University</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Navigation Menu -->
+            <nav class="mt-4">
+                <ul class="space-y-1">
+                    <li>
+                        <a href="/dashboard-inherited" class="flex items-center px-4 py-3 text-sm hover:bg-gray-700 transition-colors duration-200 {{if eq .ActivePage "dashboard"}}bg-gray-700{{end}}">
+                            <i class="fas fa-tachometer-alt w-5 mr-3"></i>
+                            Dashboard
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/profile-inherited" class="flex items-center px-4 py-3 text-sm hover:bg-gray-700 transition-colors duration-200 {{if eq .ActivePage "profile"}}bg-gray-700{{end}}">
+                            <i class="fas fa-user w-5 mr-3"></i>
+                            Student Profile
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/results" class="flex items-center px-4 py-3 text-sm hover:bg-gray-700 transition-colors duration-200 {{if eq .ActivePage "results"}}bg-gray-700{{end}}">
+                            <i class="fas fa-chart-line w-5 mr-3"></i>
+                            Result
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/logout" class="flex items-center px-4 py-3 text-sm hover:bg-gray-700 transition-colors duration-200">
+                            <i class="fas fa-sign-out-alt w-5 mr-3"></i>
+                            Logout
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <!-- Main Content -->
+        <div class="flex-1 flex flex-col overflow-hidden">
+            <!-- Header -->
+            <header class="bg-white shadow-sm border-b border-gray-200">
+                <div class="flex items-center justify-between px-6 py-4">
+                    <div class="flex items-center">
+                        <button id="sidebarToggle" class="text-gray-500 hover:text-gray-700 mr-4">
+                            <i class="fas fa-bars text-xl"></i>
+                        </button>
+                    </div>
+                    <div class="flex items-center space-x-4">
+                        <div class="text-right">
+                            <p class="text-sm font-semibold text-gray-900">{{.StudentName}}</p>
+                            <p class="text-xs text-gray-500">{{.StudentID}}</p>
+                        </div>
+                        <div class="w-8 h-8 bg-gray-300 rounded-full flex items-center justify-center">
+                            <i class="fas fa-user text-gray-600"></i>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <!-- Page Content -->
+            <main class="flex-1 overflow-x-hidden overflow-y-auto bg-gray-100 p-6">
+                {{template "content" .}}
+            </main>
+        </div>
+    </div>
+
+    <script>
+        // Sidebar toggle functionality
+        document.getElementById('sidebarToggle').addEventListener('click', function() {
+            const sidebar = document.getElementById('sidebar');
+            sidebar.classList.toggle('-translate-x-full');
+        });
+
+        // Mobile responsiveness
+        function handleResize() {
+            const sidebar = document.getElementById('sidebar');
+            if (window.innerWidth < 768) {
+                sidebar.classList.add('-translate-x-full');
+            } else {
+                sidebar.classList.remove('-translate-x-full');
+            }
+        }
+
+        window.addEventListener('resize', handleResize);
+        handleResize(); // Call on initial load
+    </script>
+    
+    {{template "scripts" .}}
+</body>
+</html>
+{{end}} 
