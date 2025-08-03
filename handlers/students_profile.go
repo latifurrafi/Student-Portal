@@ -9,6 +9,7 @@ import (
 
 // CreateStudent godoc
 // @Summary Create a new student
+// @Description Create a new student with the provided information
 // @Tags Students
 // @Accept json
 // @Produce json
@@ -17,8 +18,6 @@ import (
 // @Failure 400 {object} map[string]string
 // @Failure 500 {object} map[string]string
 // @Router /students [post]
-
-// ✅ CreateStudent API
 func CreateStudent(c *fiber.Ctx) error {
     student := new(models.Student)
     if err := c.BodyParser(student); err != nil {
@@ -34,31 +33,29 @@ func CreateStudent(c *fiber.Ctx) error {
 
 // GetAllStudents godoc
 // @Summary Get all students
+// @Description Retrieve all students from the database
 // @Tags Students
 // @Produce json
 // @Success 200 {array} models.Student
 // @Failure 500 {object} map[string]string
 // @Router /students [get]
-
-// ✅ GetAllStudents
 func GetAllStudents(c *fiber.Ctx) error {
     var students []models.Student
     if err := database.DB.Preload("Results").Find(&students).Error; err != nil {
-        return c.Status(500).JSON(fiber.Map{"error": "Failed to fetch Students..."})
+        return c.Status(500).JSON(fiber.Map{"error": "Failed to fetch Students...", "detail": err.Error()})
     }
     return c.JSON(students)
 }
 
 // GetStudentByID godoc
 // @Summary Get a student by ID
+// @Description Retrieve a specific student by their ID
 // @Tags Students
 // @Produce json
 // @Param id path int true "Student ID"
 // @Success 200 {object} models.Student
 // @Failure 404 {object} map[string]string
 // @Router /students/{id} [get]
-
-// ✅ GetStudentsById API
 func GetStudentsById(c *fiber.Ctx) error {
     id := c.Params("id")
 
@@ -73,6 +70,7 @@ func GetStudentsById(c *fiber.Ctx) error {
 
 // UpdateStudent godoc
 // @Summary Update a student by ID
+// @Description Update an existing student's information
 // @Tags Students
 // @Accept json
 // @Produce json
@@ -82,8 +80,6 @@ func GetStudentsById(c *fiber.Ctx) error {
 // @Failure 400 {object} map[string]string
 // @Failure 404 {object} map[string]string
 // @Router /students/{id} [put]
-
-// ✅ UpdateStudent By ID API
 func UpdateStudent(c *fiber.Ctx) error {
     id := c.Params("id")
     var student models.Student
@@ -105,13 +101,12 @@ func UpdateStudent(c *fiber.Ctx) error {
 
 // DeleteStudent godoc
 // @Summary Delete a student by ID
+// @Description Delete a student from the database
 // @Tags Students
 // @Param id path int true "Student ID"
 // @Success 204
 // @Failure 500 {object} map[string]string
 // @Router /students/{id} [delete]
-
-// ✅ DeleteStudent API
 func DeleteStudent(c *fiber.Ctx) error {
     id := c.Params("id")
 
@@ -124,6 +119,7 @@ func DeleteStudent(c *fiber.Ctx) error {
 
 // CreateResult godoc
 // @Summary Create a new result for a student
+// @Description Create a new academic result for a specific student
 // @Tags Results
 // @Accept json
 // @Produce json
@@ -133,8 +129,6 @@ func DeleteStudent(c *fiber.Ctx) error {
 // @Failure 404 {object} map[string]string
 // @Failure 500 {object} map[string]string
 // @Router /results [post]
-
-// ✅ CreateResult a student
 func CreateResult(c *fiber.Ctx) error {
     result := new(models.Result)
 
@@ -156,13 +150,12 @@ func CreateResult(c *fiber.Ctx) error {
 
 // GetAllResults godoc
 // @Summary Get all results
+// @Description Retrieve all academic results from the database
 // @Tags Results
 // @Produce json
 // @Success 200 {array} models.Result
 // @Failure 500 {object} map[string]string
 // @Router /results [get]
-
-// ✅ GetAllResult API
 func GetAllResult(c *fiber.Ctx) error {
     var results []models.Result
 
@@ -174,14 +167,13 @@ func GetAllResult(c *fiber.Ctx) error {
 
 // GetResultsByStudent godoc
 // @Summary Get results for a specific student
+// @Description Retrieve all academic results for a specific student
 // @Tags Results
 // @Produce json
 // @Param id path int true "Student ID"
 // @Success 200 {array} models.Result
 // @Failure 500 {object} map[string]string
 // @Router /students/{id}/results [get]
-
-// ✅ GetREsultsBYID API
 func GetREsultsBYID(c *fiber.Ctx) error {
     StudentID := c.Params("id")
     var results []models.Result
