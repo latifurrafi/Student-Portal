@@ -131,7 +131,6 @@ func DeleteStudent(c *fiber.Ctx) error {
 // @Router /results [post]
 func CreateResult(c *fiber.Ctx) error {
     result := new(models.Result)
-
     if err := c.BodyParser(result); err != nil {
         return c.Status(400).JSON(fiber.Map{"error": "Invalid input..."})
     }
@@ -177,10 +176,8 @@ func GetAllResult(c *fiber.Ctx) error {
 func GetREsultsBYID(c *fiber.Ctx) error {
     StudentID := c.Params("id")
     var results []models.Result
-
     if err := database.DB.Where("student_id = ?", StudentID).Find(&results).Error; err != nil {
         return c.Status(500).JSON(fiber.Map{"error": "Failed to get results..."})
     }
     return c.JSON(results)
 }
-
