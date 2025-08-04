@@ -6,6 +6,9 @@ import (
 )
 
 func SetupRoutes(app *fiber.App) {
+	// Login API
+	app.Post("/students/login", handlers.StudentLogin)
+
 	// Student API
 	app.Post("/students", handlers.CreateStudent)
 	app.Get("/students", handlers.GetAllStudents)
@@ -13,8 +16,13 @@ func SetupRoutes(app *fiber.App) {
 	app.Put("/students/:id", handlers.UpdateStudent)
 	app.Delete("/students/:id", handlers.DeleteStudent)
 
+
 	// Result API
 	app.Post("/results", handlers.CreateResult)
 	app.Get("/results", handlers.GetAllResult)
 	app.Get("/students/:id/results", handlers.GetREsultsBYID)
+
+
+	// Paymet API
+	app.Get("/students/:id/payments", handlers.GetStudentPaymentInfo)
 }

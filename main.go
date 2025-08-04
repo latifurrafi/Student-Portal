@@ -31,5 +31,5 @@ func main() {
 	app.Static("/swagger", "./docs")                   
 	app.Get("/swagger/*", fiberSwagger.WrapHandler)
 
-	app.Listen(":8000")
+	app.Listen(":5000")
 }
