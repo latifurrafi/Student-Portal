@@ -16,13 +16,17 @@ func SetupRoutes(app *fiber.App) {
 	app.Put("/students/:id", handlers.UpdateStudent)
 	app.Delete("/students/:id", handlers.DeleteStudent)
 
-
 	// Result API
 	app.Post("/results", handlers.CreateResult)
 	app.Get("/results", handlers.GetAllResult)
 	app.Get("/students/:id/results", handlers.GetREsultsBYID)
 
-
-	// Paymet API
+	// Payment information API
 	app.Get("/students/:id/payments", handlers.GetStudentPaymentInfo)
+
+	// Personal information API
+	app.Get("/students/:id/personal", handlers.GetStudentPersonalInfo)
+
+	// Academic information API
+	app.Get("/students/:id/academic", handlers.GetAcamedicInfo)
 }
