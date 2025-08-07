@@ -1,0 +1,301 @@
+id,code,title,credit
+1,CSE-101,Introduction to CSE,3.0
+2,CSE-102,Advanced CSE,4.0
+3,CSE-103,Fundamentals of CSE,4.0
+4,CSE-104,Principles of CSE,3.0
+5,CSE-105,Applied CSE,3.0
+6,CSE-106,Special Topics in CSE,4.0
+7,CSE-107,Seminar on CSE,4.0
+8,CSE-108,Research in CSE,4.0
+9,CSE-109,Theory of CSE,4.0
+10,CSE-110,Practicum in CSE,3.0
+11,CSE-111,Introduction to CSE,4.0
+12,CSE-112,Advanced CSE,3.0
+13,CSE-113,Fundamentals of CSE,4.0
+14,CSE-114,Principles of CSE,4.0
+15,CSE-115,Applied CSE,4.0
+16,CSE-116,Special Topics in CSE,4.0
+17,CSE-117,Seminar on CSE,3.0
+18,CSE-118,Research in CSE,4.0
+19,CSE-119,Theory of CSE,3.0
+20,CSE-120,Practicum in CSE,4.0
+21,CSE-121,Introduction to CSE,3.0
+22,CSE-122,Advanced CSE,3.0
+23,CSE-123,Fundamentals of CSE,4.0
+24,CSE-124,Principles of CSE,4.0
+25,CSE-125,Applied CSE,4.0
+26,CSE-126,Special Topics in CSE,3.0
+27,CSE-127,Seminar on CSE,4.0
+28,CSE-128,Research in CSE,3.0
+29,CSE-129,Theory of CSE,4.0
+30,CSE-130,Practicum in CSE,4.0
+31,CSE-131,Introduction to CSE,3.0
+32,CSE-132,Advanced CSE,3.0
+33,CSE-133,Fundamentals of CSE,4.0
+34,CSE-134,Principles of CSE,3.0
+35,CSE-135,Applied CSE,3.0
+36,CSE-136,Special Topics in CSE,3.0
+37,CSE-137,Seminar on CSE,3.0
+38,CSE-138,Research in CSE,4.0
+39,CSE-139,Theory of CSE,3.0
+40,CSE-140,Practicum in CSE,3.0
+41,CSE-141,Introduction to CSE,3.0
+42,CSE-142,Advanced CSE,3.0
+43,CSE-143,Fundamentals of CSE,3.0
+44,CSE-144,Principles of CSE,3.0
+45,CSE-145,Applied CSE,3.0
+46,CSE-146,Special Topics in CSE,4.0
+47,CSE-147,Seminar on CSE,4.0
+48,CSE-148,Research in CSE,3.0
+49,CSE-149,Theory of CSE,4.0
+50,CSE-150,Practicum in CSE,3.0
+51,CSE-151,Introduction to CSE,4.0
+52,CSE-152,Advanced CSE,4.0
+53,CSE-153,Fundamentals of CSE,4.0
+54,CSE-154,Principles of CSE,3.0
+55,CSE-155,Applied CSE,3.0
+56,CSE-156,Special Topics in CSE,3.0
+57,CSE-157,Seminar on CSE,4.0
+58,CSE-158,Research in CSE,3.0
+59,CSE-159,Theory of CSE,4.0
+60,CSE-160,Practicum in CSE,3.0
+61,EEE-101,Introduction to EEE,4.0
+62,EEE-102,Advanced EEE,3.0
+63,EEE-103,Fundamentals of EEE,4.0
+64,EEE-104,Principles of EEE,4.0
+65,EEE-105,Applied EEE,4.0
+66,EEE-106,Special Topics in EEE,3.0
+67,EEE-107,Seminar on EEE,3.0
+68,EEE-108,Research in EEE,4.0
+69,EEE-109,Theory of EEE,3.0
+70,EEE-110,Practicum in EEE,3.0
+71,EEE-111,Introduction to EEE,4.0
+72,EEE-112,Advanced EEE,3.0
+73,EEE-113,Fundamentals of EEE,3.0
+74,EEE-114,Principles of EEE,4.0
+75,EEE-115,Applied EEE,4.0
+76,EEE-116,Special Topics in EEE,3.0
+77,EEE-117,Seminar on EEE,3.0
+78,EEE-118,Research in EEE,3.0
+79,EEE-119,Theory of EEE,4.0
+80,EEE-120,Practicum in EEE,4.0
+81,EEE-121,Introduction to EEE,4.0
+82,EEE-122,Advanced EEE,4.0
+83,EEE-123,Fundamentals of EEE,3.0
+84,EEE-124,Principles of EEE,4.0
+85,EEE-125,Applied EEE,4.0
+86,EEE-126,Special Topics in EEE,3.0
+87,EEE-127,Seminar on EEE,4.0
+88,EEE-128,Research in EEE,3.0
+89,EEE-129,Theory of EEE,3.0
+90,EEE-130,Practicum in EEE,4.0
+91,EEE-131,Introduction to EEE,3.0
+92,EEE-132,Advanced EEE,3.0
+93,EEE-133,Fundamentals of EEE,4.0
+94,EEE-134,Principles of EEE,4.0
+95,EEE-135,Applied EEE,4.0
+96,EEE-136,Special Topics in EEE,3.0
+97,EEE-137,Seminar on EEE,3.0
+98,EEE-138,Research in EEE,4.0
+99,EEE-139,Theory of EEE,3.0
+100,EEE-140,Practicum in EEE,4.0
+101,EEE-141,Introduction to EEE,3.0
+102,EEE-142,Advanced EEE,3.0
+103,EEE-143,Fundamentals of EEE,4.0
+104,EEE-144,Principles of EEE,4.0
+105,EEE-145,Applied EEE,4.0
+106,EEE-146,Special Topics in EEE,4.0
+107,EEE-147,Seminar on EEE,3.0
+108,EEE-148,Research in EEE,4.0
+109,EEE-149,Theory of EEE,4.0
+110,EEE-150,Practicum in EEE,3.0
+111,EEE-151,Introduction to EEE,3.0
+112,EEE-152,Advanced EEE,3.0
+113,EEE-153,Fundamentals of EEE,4.0
+114,EEE-154,Principles of EEE,4.0
+115,EEE-155,Applied EEE,4.0
+116,EEE-156,Special Topics in EEE,4.0
+117,EEE-157,Seminar on EEE,3.0
+118,EEE-158,Research in EEE,3.0
+119,EEE-159,Theory of EEE,4.0
+120,EEE-160,Practicum in EEE,3.0
+121,BBA-101,Introduction to BBA,4.0
+122,BBA-102,Advanced BBA,4.0
+123,BBA-103,Fundamentals of BBA,3.0
+124,BBA-104,Principles of BBA,4.0
+125,BBA-105,Applied BBA,4.0
+126,BBA-106,Special Topics in BBA,3.0
+127,BBA-107,Seminar on BBA,4.0
+128,BBA-108,Research in BBA,4.0
+129,BBA-109,Theory of BBA,4.0
+130,BBA-110,Practicum in BBA,3.0
+131,BBA-111,Introduction to BBA,4.0
+132,BBA-112,Advanced BBA,4.0
+133,BBA-113,Fundamentals of BBA,3.0
+134,BBA-114,Principles of BBA,3.0
+135,BBA-115,Applied BBA,3.0
+136,BBA-116,Special Topics in BBA,3.0
+137,BBA-117,Seminar on BBA,3.0
+138,BBA-118,Research in BBA,4.0
+139,BBA-119,Theory of BBA,4.0
+140,BBA-120,Practicum in BBA,3.0
+141,BBA-121,Introduction to BBA,3.0
+142,BBA-122,Advanced BBA,4.0
+143,BBA-123,Fundamentals of BBA,4.0
+144,BBA-124,Principles of BBA,4.0
+145,BBA-125,Applied BBA,3.0
+146,BBA-126,Special Topics in BBA,3.0
+147,BBA-127,Seminar on BBA,4.0
+148,BBA-128,Research in BBA,4.0
+149,BBA-129,Theory of BBA,3.0
+150,BBA-130,Practicum in BBA,3.0
+151,BBA-131,Introduction to BBA,4.0
+152,BBA-132,Advanced BBA,3.0
+153,BBA-133,Fundamentals of BBA,3.0
+154,BBA-134,Principles of BBA,4.0
+155,BBA-135,Applied BBA,3.0
+156,BBA-136,Special Topics in BBA,4.0
+157,BBA-137,Seminar on BBA,4.0
+158,BBA-138,Research in BBA,4.0
+159,BBA-139,Theory of BBA,4.0
+160,BBA-140,Practicum in BBA,3.0
+161,BBA-141,Introduction to BBA,4.0
+162,BBA-142,Advanced BBA,4.0
+163,BBA-143,Fundamentals of BBA,3.0
+164,BBA-144,Principles of BBA,4.0
+165,BBA-145,Applied BBA,3.0
+166,BBA-146,Special Topics in BBA,4.0
+167,BBA-147,Seminar on BBA,3.0
+168,BBA-148,Research in BBA,4.0
+169,BBA-149,Theory of BBA,3.0
+170,BBA-150,Practicum in BBA,4.0
+171,BBA-151,Introduction to BBA,4.0
+172,BBA-152,Advanced BBA,4.0
+173,BBA-153,Fundamentals of BBA,3.0
+174,BBA-154,Principles of BBA,3.0
+175,BBA-155,Applied BBA,4.0
+176,BBA-156,Special Topics in BBA,3.0
+177,BBA-157,Seminar on BBA,4.0
+178,BBA-158,Research in BBA,4.0
+179,BBA-159,Theory of BBA,4.0
+180,BBA-160,Practicum in BBA,3.0
+181,ENG-101,Introduction to ENG,4.0
+182,ENG-102,Advanced ENG,4.0
+183,ENG-103,Fundamentals of ENG,3.0
+184,ENG-104,Principles of ENG,4.0
+185,ENG-105,Applied ENG,3.0
+186,ENG-106,Special Topics in ENG,4.0
+187,ENG-107,Seminar on ENG,3.0
+188,ENG-108,Research in ENG,3.0
+189,ENG-109,Theory of ENG,4.0
+190,ENG-110,Practicum in ENG,4.0
+191,ENG-111,Introduction to ENG,3.0
+192,ENG-112,Advanced ENG,3.0
+193,ENG-113,Fundamentals of ENG,4.0
+194,ENG-114,Principles of ENG,4.0
+195,ENG-115,Applied ENG,3.0
+196,ENG-116,Special Topics in ENG,3.0
+197,ENG-117,Seminar on ENG,3.0
+198,ENG-118,Research in ENG,4.0
+199,ENG-119,Theory of ENG,3.0
+200,ENG-120,Practicum in ENG,4.0
+201,ENG-121,Introduction to ENG,4.0
+202,ENG-122,Advanced ENG,3.0
+203,ENG-123,Fundamentals of ENG,4.0
+204,ENG-124,Principles of ENG,4.0
+205,ENG-125,Applied ENG,4.0
+206,ENG-126,Special Topics in ENG,4.0
+207,ENG-127,Seminar on ENG,3.0
+208,ENG-128,Research in ENG,4.0
+209,ENG-129,Theory of ENG,3.0
+210,ENG-130,Practicum in ENG,3.0
+211,ENG-131,Introduction to ENG,3.0
+212,ENG-132,Advanced ENG,3.0
+213,ENG-133,Fundamentals of ENG,3.0
+214,ENG-134,Principles of ENG,4.0
+215,ENG-135,Applied ENG,3.0
+216,ENG-136,Special Topics in ENG,4.0
+217,ENG-137,Seminar on ENG,3.0
+218,ENG-138,Research in ENG,3.0
+219,ENG-139,Theory of ENG,3.0
+220,ENG-140,Practicum in ENG,3.0
+221,ENG-141,Introduction to ENG,3.0
+222,ENG-142,Advanced ENG,3.0
+223,ENG-143,Fundamentals of ENG,3.0
+224,ENG-144,Principles of ENG,3.0
+225,ENG-145,Applied ENG,3.0
+226,ENG-146,Special Topics in ENG,3.0
+227,ENG-147,Seminar on ENG,3.0
+228,ENG-148,Research in ENG,3.0
+229,ENG-149,Theory of ENG,3.0
+230,ENG-150,Practicum in ENG,4.0
+231,ENG-151,Introduction to ENG,3.0
+232,ENG-152,Advanced ENG,4.0
+233,ENG-153,Fundamentals of ENG,4.0
+234,ENG-154,Principles of ENG,3.0
+235,ENG-155,Applied ENG,3.0
+236,ENG-156,Special Topics in ENG,4.0
+237,ENG-157,Seminar on ENG,4.0
+238,ENG-158,Research in ENG,3.0
+239,ENG-159,Theory of ENG,3.0
+240,ENG-160,Practicum in ENG,3.0
+241,LAW-101,Introduction to LAW,3.0
+242,LAW-102,Advanced LAW,4.0
+243,LAW-103,Fundamentals of LAW,4.0
+244,LAW-104,Principles of LAW,3.0
+245,LAW-105,Applied LAW,3.0
+246,LAW-106,Special Topics in LAW,4.0
+247,LAW-107,Seminar on LAW,3.0
+248,LAW-108,Research in LAW,3.0
+249,LAW-109,Theory of LAW,4.0
+250,LAW-110,Practicum in LAW,3.0
+251,LAW-111,Introduction to LAW,3.0
+252,LAW-112,Advanced LAW,4.0
+253,LAW-113,Fundamentals of LAW,4.0
+254,LAW-114,Principles of LAW,3.0
+255,LAW-115,Applied LAW,3.0
+256,LAW-116,Special Topics in LAW,3.0
+257,LAW-117,Seminar on LAW,4.0
+258,LAW-118,Research in LAW,4.0
+259,LAW-119,Theory of LAW,4.0
+260,LAW-120,Practicum in LAW,3.0
+261,LAW-121,Introduction to LAW,3.0
+262,LAW-122,Advanced LAW,3.0
+263,LAW-123,Fundamentals of LAW,4.0
+264,LAW-124,Principles of LAW,4.0
+265,LAW-125,Applied LAW,4.0
+266,LAW-126,Special Topics in LAW,3.0
+267,LAW-127,Seminar on LAW,3.0
+268,LAW-128,Research in LAW,3.0
+269,LAW-129,Theory of LAW,4.0
+270,LAW-130,Practicum in LAW,3.0
+271,LAW-131,Introduction to LAW,4.0
+272,LAW-132,Advanced LAW,3.0
+273,LAW-133,Fundamentals of LAW,3.0
+274,LAW-134,Principles of LAW,3.0
+275,LAW-135,Applied LAW,4.0
+276,LAW-136,Special Topics in LAW,4.0
+277,LAW-137,Seminar on LAW,3.0
+278,LAW-138,Research in LAW,3.0
+279,LAW-139,Theory of LAW,3.0
+280,LAW-140,Practicum in LAW,3.0
+281,LAW-141,Introduction to LAW,3.0
+282,LAW-142,Advanced LAW,4.0
+283,LAW-143,Fundamentals of LAW,3.0
+284,LAW-144,Principles of LAW,3.0
+285,LAW-145,Applied LAW,4.0
+286,LAW-146,Special Topics in LAW,4.0
+287,LAW-147,Seminar on LAW,3.0
+288,LAW-148,Research in LAW,4.0
+289,LAW-149,Theory of LAW,4.0
+290,LAW-150,Practicum in LAW,3.0
+291,LAW-151,Introduction to LAW,3.0
+292,LAW-152,Advanced LAW,3.0
+293,LAW-153,Fundamentals of LAW,3.0
+294,LAW-154,Principles of LAW,4.0
+295,LAW-155,Applied LAW,3.0
+296,LAW-156,Special Topics in LAW,4.0
+297,LAW-157,Seminar on LAW,4.0
+298,LAW-158,Research in LAW,3.0
+299,LAW-159,Theory of LAW,3.0
+300,LAW-160,Practicum in LAW,4.0

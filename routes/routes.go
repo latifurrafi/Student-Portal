@@ -29,4 +29,10 @@ func SetupRoutes(app *fiber.App) {
 
 	// Academic information API
 	app.Get("/students/:id/academic", handlers.GetAcamedicInfo)
+
+	// Results API
+	app.Get("/results/:student_id/:semester_id", handlers.GetResultsBySemester)
+
+	// Available Semester API
+	app.Get("/available-semesters/:student_id", handlers.GetAvailableSemesters)
 }
