@@ -2,6 +2,7 @@ package handlers
 
 import (
 	"student-portal/database"
+
 	"github.com/gofiber/fiber/v2"
 )
 
@@ -36,14 +37,14 @@ func GetAvailableSemesters(c *fiber.Ctx) error {
 
 	// Convert to desired frontend format
 	type SemesterOption struct {
-		ID   string `json:"id"`
-		Name string `json:"name"` // e.g., "Spring 2025, 251"
+		ID   uint   `json:"id"`   // primary key
+		Name string `json:"name"` // "Spring 2025, 251"
 	}
 
 	var formatted []SemesterOption
 	for _, s := range semesters {
 		formatted = append(formatted, SemesterOption{
-			ID:   s.Code, // or s.Code if you're using string IDs
+			ID:   s.ID, // or s.Code if you're using string IDs
 			Name: s.Name + ", " + s.Code,
 		})
 	}
