@@ -1,16 +1,17 @@
 package main
 
 import (
+	"log"
+	"os"
 	"student-portal/database"
 	"student-portal/routes"
 
 	"github.com/gofiber/fiber/v2"
 	"github.com/gofiber/fiber/v2/middleware/logger"
 	"github.com/gofiber/fiber/v2/middleware/cors"
-	_ "student-portal/docs" 
-	fiberSwagger "github.com/swaggo/fiber-swagger" 
+	_ "student-portal/docs"
+	fiberSwagger "github.com/swaggo/fiber-swagger"
 )
-
 
 // @title Student Portal API
 // @version 1.0
@@ -28,8 +29,15 @@ func main() {
 	database.Migrate()
 
 	routes.SetupRoutes(app)
-	app.Static("/swagger", "./docs")                   
+	app.Static("/swagger", "./docs")
 	app.Get("/swagger/*", fiberSwagger.WrapHandler)
 
-	app.Listen(":5000")
+	// PORT environment variable দিয়ে পোর্ট সেট করা
+	port := os.Getenv("PORT")
+	if port == "" {
+		port = "5000" // default port
+	}
+
+	log.Println("Starting server on port " + port)
+	log.Fatal(app.Listen("0.0.0.0:" + port))
 }
