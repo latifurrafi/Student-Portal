@@ -1,16 +1,12 @@
 package database
 
 import (
-    students "student-portal/models/students" // ← give alias
+    students "student-portal/models/students"
 )
 
-func Migrate() {
-    err := DB.AutoMigrate(
+func Migrate() error {
+    return DB.AutoMigrate(
         &students.Student{},
         &students.Result{},
     )
-
-    if err != nil {
-        panic("Failed to run migrations: " + err.Error())
-    }
 }
